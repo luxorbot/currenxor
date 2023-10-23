@@ -28,15 +28,15 @@ const fetchData = async (selector, label) => {
     }
 }
 
-const getEuroSalesData = async () => {
+const salesData = async () => {
     return await fetchData('.realTimeBoxR', 'SATIŞ (TL)');
 }
 
-const getEuroBuyData = async () => {
+const buyData = async () => {
     return await fetchData('.realTimeBoxL', 'ALIŞ (TL)');
 }
 
 module.exports = {
-    getEuroSalesData,
-    getEuroBuyData
+    salesData,
+    buyData
 };

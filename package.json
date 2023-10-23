@@ -1,6 +1,6 @@
 {
   "name": "currenxor",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "description": "Uzmanpara üzerinden döviz kurlarını çeken bir modül.",
   "main": "index.js",
   "scripts": {

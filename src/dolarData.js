@@ -24,15 +24,15 @@ const fetchData = async (selector) => {
     }
 }
 
-const getDolarSalesData = async () => {
+const salesData = async () => {
     return await fetchData('.realTimeBoxR');
 }
 
-const getDolarBuyData = async () => {
+const buyData = async () => {
     return await fetchData('.realTimeBoxL');
 }
 
 module.exports = {
-    getDolarSalesData,
-    getDolarBuyData
+    salesData,
+    buyData
 };

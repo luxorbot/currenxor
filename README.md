@@ -13,20 +13,20 @@ Uzmanpara üzerinden döviz kurlarını çeken bir modül.
 const currenxor = require('currenxor');
 
 // Dolar verilerini çekmek için aşağıda ki yöntemleri izleyebilirsiniz.
-currenxor.dolarData.getDolarSalesData().then((data) => {
+currenxor.dolarData.salesData().then((data) => {
     console.log('Dolar satış:', data);
 });
 
-currenxor.dolarData.getDolarBuyData().then((data) => {
+currenxor.dolarData.buyData().then((data) => {
     console.log('Dolar alış:', data);
 });
 
 // Euro verilerini çekmek için aşağıda ki yöntemleri izleyebilirsiniz.
-currenxor.euroData.getEuroSalesData().then((data) => {
+currenxor.euroData.salesData().then((data) => {
     console.log('Euro satış:', data);
 });
 
-currenxor.euroData.getEuroBuyData().then((data) => {
+currenxor.euroData.buyData().then((data) => {
     console.log('Euro alış:', data);
 });
 ```
